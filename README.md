@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Pile ou Face - Flip the coin ! 
 
-You can use the [editor on GitHub](https://github.com/Zoeinfp/flip-the-coin/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Tirer à pile ou face - Flip the coin
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Cette application web permet de lancer une pièce. Le résultat du jet de pièce sera soit PILE soit FACE. Logique !
 
-### Markdown
+La page facebook pour lequel ce jeu a été conçu est une page où les gens sont francophones, tout sera donc en français pour que tout le monde puisse lire et comprendre.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Plus de détail :  [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Edition du code source
 
-- Bulleted
-- List
+Ce projet peut être édité en suivant ce lien là : [editor on GitHub](https://github.com/Zoeinfp/flip-the-coin/edit/master/README.md) 
 
-1. Numbered
-2. List
+### Construction de l'application
 
-**Bold** and _Italic_ and `Code` text
+A chaque mise à jour transmise sur ce dépôt, GitHub Pages reconstruit l'app en utilisant le contenu des fichiers avec l'extension .md et ceci se produit en passant par :  [Jekyll](https://jekyllrb.com/) 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Zoeinfp/flip-the-coin/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Ce site utilisera la mise en page et les styles du thème Jekyll sélectionné dans les [paramètres du référentiel] (https://github.com/Zoeinfp/flip-the-coin/settings). Le nom de ce thème est enregistré dans le fichier de configuration Jekyll `_config.yml`.
 
-### Support or Contact
+### Support et Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Des soucis ? La [documentation](https://help.github.com/categories/github-pages-basics/) et le contact [contact support](https://github.com/contact) est une aide supplémentaire concernant l'utilisant du système de page Github.
