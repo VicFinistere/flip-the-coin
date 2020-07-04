@@ -91,5 +91,5 @@ button.onclick = function() {
 <div id='button'>Flip coin</div>
 <div id='result'></div>
 <div id='headsCounter'></div>
-<div id='tailsCounter'></div
+<div id='tailsCounter'></div>
 
