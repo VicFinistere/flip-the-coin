@@ -45,17 +45,6 @@ body {
 </style>
 
 <script>
-function set_result(text_to_append){
-  // Retrait de l'ancien résultat
-  document.getElementById("result").remove();
-  
-  // Création du nouveau résultat
-  var para = document.createElement("P");                       
-  para.setAttribute("id", "result");
-  var t = document.createTextNode(text_to_append);      
-  para.appendChild(t);                                          
-  document.getElementById("coin").appendChild(para);
-}
 
 /* On click of button spin coin ainamtion */
 function coinToss() {
@@ -69,19 +58,20 @@ function coinToss() {
   /* If statement */
   if (x === 0) {
     coin.innerHTML = '<img class="heads animate-coin" src="https://upload.wikimedia.org/wikipedia/en/5/52/British_fifty_pence_coin_2015_obverse.png"/>';
-    set_result("C'est face !");
-
+    
+    result.innerHTML = "<p>C'est face !</p>";
   } else {
     coin.innerHTML = '<img class="tails animate-coin" src="https://upload.wikimedia.org/wikipedia/en/d/d8/British_fifty_pence_coin_2015_reverse.png"/>';
-     set_result("C'est pile");
+    result.innerHTML = "<p>C'est pile !</p>";
   }
 
 }
 </script>
 
 
-<h1>Flip the coin</h1>
+<h1>Tirer à pile ou face</h1>
 
 <div id='coin'></div>
+<div id='result'></div>
 <div id='button' onclick="coinToss()">Flip coin</div>
 
