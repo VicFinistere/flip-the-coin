@@ -45,6 +45,17 @@ body {
 </style>
 
 <script>
+function set_result(text_to_append){
+  // Retrait de l'ancien résultat
+  document.getElementById("result").remove();
+  
+  // Création du nouveau résultat
+  var para = document.createElement("P");                       
+  para.setAttribute("id", "result");
+  var t = document.createTextNode(text_to_append);      
+  para.appendChild(t);                                          
+  document.getElementById("coin").appendChild(para);
+}
 
 /* On click of button spin coin ainamtion */
 function coinToss() {
@@ -58,11 +69,11 @@ function coinToss() {
   /* If statement */
   if (x === 0) {
     coin.innerHTML = '<img class="heads animate-coin" src="https://upload.wikimedia.org/wikipedia/en/5/52/British_fifty_pence_coin_2015_obverse.png"/>';
-    alert("C'est face !");
+    set_result("C'est face !");
 
   } else {
     coin.innerHTML = '<img class="tails animate-coin" src="https://upload.wikimedia.org/wikipedia/en/d/d8/British_fifty_pence_coin_2015_reverse.png"/>';
-     alert("C'est pile");
+     set_result("C'est pile");
   }
 
 }
