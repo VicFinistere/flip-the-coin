@@ -77,11 +77,11 @@ function coinToss() {
 
 }
 
-button.onclick = function() {
-  coinToss();
-}
-
-
+window.onload = function(){ 
+  button.onclick = function() {
+    coinToss();
+  } 
+};
 </script>
 
 
