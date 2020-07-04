@@ -50,10 +50,6 @@ function coinToss() {
   
   var coin = document.getElementById('coin');
   var result = document.getElementById('result');
-  var headsCounter = document.getElementById('headsCounter');
-  var TailsCounter = document.getElementById('TailsCounter');
-  var heads = 0;
-  var tails = 0;
   
   /* Random number 0 or 1  */
   var x = Math.floor(Math.random() * 2);
@@ -61,17 +57,11 @@ function coinToss() {
   /* If statement */
   if (x === 0) {
     coin.innerHTML = '<img class="heads animate-coin" src="https://upload.wikimedia.org/wikipedia/en/5/52/British_fifty_pence_coin_2015_obverse.png"/>';
-    
-    heads += 1;
-    result.innerHTML = 'You got heads';
-    headsCounter.innerHTML = '<h1> Number of heads: ' + heads + '</h1>';
+    alert("C'est face !");
 
   } else {
     coin.innerHTML = '<img class="tails animate-coin" src="https://upload.wikimedia.org/wikipedia/en/d/d8/British_fifty_pence_coin_2015_reverse.png"/>';
-     tails += 1;
-    result.innerHTML = 'You got tails';
-     tailsCounter.innerHTML = '<h1> Number of tails: ' + tails + '</h1>';
-
+     alert("C'est pile");
   }
 
 }
@@ -82,7 +72,4 @@ function coinToss() {
 
 <div id='coin'></div>
 <div id='button' onclick="coinToss()">Flip coin</div>
-<div id='result'></div>
-<div id='headsCounter'></div>
-<div id='tailsCounter'></div>
 
