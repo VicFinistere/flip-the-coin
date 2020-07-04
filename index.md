@@ -1,6 +1,5 @@
 <style>
 body {
-  background: #fff;
   font-family: 'Ubuntu', sans-serif;
 }
 
