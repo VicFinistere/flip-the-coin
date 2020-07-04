@@ -11,7 +11,7 @@ Plus de détail :  [GitHub Flavored Markdown](https://guides.github.com/features
 
 ### Edition du code source
 
-Ce projet peut être édité en suivant ce lien là : [editor on GitHub](https://github.com/Zoeinfp/flip-the-coin/edit/master/README.md) 
+Ce projet peut être édité en suivant ce lien là : [editor on GitHub](https://github.com/Zoeinfp/flip-the-coin/edit/master/index.md) 
 
 ### Construction de l'application
 
