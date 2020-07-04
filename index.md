@@ -46,16 +46,16 @@ body {
 
 <script>
 
-/* On click of button spin coin ainamtion */
+/* Au clic sur le bouton on lance l'animation */
 function coinToss() {
   
   var coin = document.getElementById('coin');
   var result = document.getElementById('result');
   
-  /* Random number 0 or 1  */
+  /* Nombre aléatoire entre 0 et 1  */
   var x = Math.floor(Math.random() * 2);
   
-  /* If statement */
+  /* Si c'est 0 ou si c'est 1 */
   if (x === 0) {
     coin.innerHTML = '<img class="heads animate-coin" src="https://upload.wikimedia.org/wikipedia/en/5/52/British_fifty_pence_coin_2015_obverse.png"/>';
     
