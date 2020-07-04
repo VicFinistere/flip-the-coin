@@ -45,16 +45,16 @@ body {
 </style>
 
 <script>
-var coin = document.getElementById('coin');
-var button = document.getElementById('button');
-var result = document.getElementById('result');
-var headsCounter = document.getElementById('headsCounter');
-var TailsCounter = document.getElementById('TailsCounter');
-var heads = 0;
-var tails = 0;
 
 /* On click of button spin coin ainamtion */
 function coinToss() {
+  
+  var coin = document.getElementById('coin');
+  var result = document.getElementById('result');
+  var headsCounter = document.getElementById('headsCounter');
+  var TailsCounter = document.getElementById('TailsCounter');
+  var heads = 0;
+  var tails = 0;
   
   /* Random number 0 or 1  */
   var x = Math.floor(Math.random() * 2);
@@ -76,19 +76,13 @@ function coinToss() {
   }
 
 }
-
-window.onload = function(){ 
-  button.onclick = function() {
-    coinToss();
-  } 
-};
 </script>
 
 
 <h1>Flip the coin</h1>
 
 <div id='coin'></div>
-<div id='button'>Flip coin</div>
+<div id='button' onclick="coinToss()">Flip coin</div>
 <div id='result'></div>
 <div id='headsCounter'></div>
 <div id='tailsCounter'></div>
