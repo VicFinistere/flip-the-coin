@@ -23,6 +23,7 @@ body {
 
 .animate-coin {
   animation: flip 1.4s 1;
+  border-radius:50%;
 }
 
 @keyframes flip {
